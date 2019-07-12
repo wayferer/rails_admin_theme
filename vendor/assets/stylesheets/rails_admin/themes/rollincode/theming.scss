@@ -101,6 +101,7 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
 .btn {
   border-radius: 2px;
   color: #fff !important;
+  transition: color 0.2s ease, background 0.2s ease, border 0.2s ease;
 }
 
 .btn-default {
