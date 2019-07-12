@@ -109,14 +109,14 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
 
 .btn-info {
   background: $primary;
-  border-color: darken($primary, 10%);
+  border-color: $primary;
 
   &:active,
   &:focus,
   &:hover,
   &:target {
-    background: $primary;
-    border-color: darken($primary, 10%);
+    background: darken($primary, 20%);
+    border-color: darken($primary, 20%);
     color: $secondary;
   }
 }
